@@ -33,7 +33,7 @@ router.post('/', async (req, res) => {
   } catch (error) {
     console.log(error);
   }
-  res.status(200).send('OK');
+  res.status(200).send('ALL GOODS');
 });
 
 module.exports = {
